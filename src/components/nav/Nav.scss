@@ -1,0 +1,61 @@
+header {
+  max-width: 100vw;
+  height: 10vh;
+  background: #121212;
+  color: #fff;
+  z-index: 99;
+
+  .content {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+
+  .options {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .options .option,
+  .options .account span {
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 24px;
+    text-decoration: none;
+    color: #fff;
+  }
+  .options .option:hover,
+  .options .account span:hover {
+    color: #1ed760;
+    cursor: pointer;
+  }
+  .options .account {
+    border-left: 1px solid #fff;
+    padding-left: 24px;
+  }
+  .mobileIcon {
+    display: none;
+  }
+  @media screen and (max-width: 1000px) {
+    .mobileIcon {
+      display: block;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .options {
+      display: none;
+    }
+    .content {
+      width: 90%;
+    }
+  }
+}
