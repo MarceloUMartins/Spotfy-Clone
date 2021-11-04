@@ -1,0 +1,36 @@
+.container {
+    text-align: center;
+}
+
+.warning {
+    color: red;
+    font-weight: 800;
+}
+
+.message {
+    padding-bottom: 30px;
+}
+
+.form h1 {
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.form input {
+    padding: 7px 20px;
+    width:340px;
+    height: 35px;
+}
+.form button {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 7px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #21e065;
+    color: #121212;
+    font-weight: 700;
+}
+.form button:hover {
+    transform: scale(0.98)
+}

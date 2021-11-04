@@ -1,0 +1,32 @@
+.Download {
+    max-width: 100vw;
+    height: 60vh;
+    background-color: #19e68c;
+
+    .content {
+        padding-top: 15vh;
+        text-align: center;
+        img {
+            height: 80px;
+            margin-bottom: 2vh;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 2vh;
+        }
+        .buttonBox button {
+            margin-top: 2vh;
+            text-transform: uppercase;
+            background-color: #fff;
+            border-radius: 999px;
+            font-weight: bold;
+            color: #121212;
+            padding: 10px 20px;
+            border: none;
+            margin-bottom: 10vh;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
